@@ -6,8 +6,8 @@ using namespace std;
 
 int Ejercicio9(){
     int N;
-        std::cout << "Ingrese un numero entero: ";
-        std::cin >> N;
+        cout << "Ingrese un numero entero: ";
+        cin >> N;
 
         int suma = 0;
         while (N > 0) {
@@ -16,7 +16,7 @@ int Ejercicio9(){
             N /= 10;
         }
 
-        std::cout << "El resultado de la suma es: " << suma << std::endl;
+        cout << "El resultado de la suma es: " << suma << endl;
 
         return 0;
 
