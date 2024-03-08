@@ -20,7 +20,7 @@ int Ejercicio10() {
         if (esPrimo(i)) {
             --n;
             if (n == 0) {
-                cout << "El primo numero " << n << " es: " << i << std::endl;
+                cout << "El primo numero " << n << " es: " << i << endl;
             }
         }
         ++i;
